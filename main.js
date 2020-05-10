@@ -16,7 +16,7 @@ function sendRequest(url) {
     } else {
       console.log('error')
     }
-    // document.getElementById("loader").style.display = 'none';
+    document.getElementById("loader").style.display = 'none';
   }
 
   request.send();
