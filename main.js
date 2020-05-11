@@ -2,6 +2,7 @@ var request = new XMLHttpRequest()
 
 //function accepts url to call.
 function sendRequest(url) {
+
   request.open('GET', url, true)
   request.onload = function() {
     
@@ -20,6 +21,7 @@ function sendRequest(url) {
   }
 
   request.send();
+
 }
 
 
